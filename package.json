@@ -1,12 +1,12 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/testcafe-commonjs/issues"
+    "url": "https://github.com/e2e-boilerplate/testcafe-commonjs-assert/issues"
   },
   "dependencies": {
     "testcafe": "1.8.4"
   },
-  "description": "TestCafé end-to-end test automation boilerplate. Using Commonjs.",
+  "description": "TestCafé end-to-end test automation boilerplate. Using Commonjs and Assert.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
@@ -19,13 +19,14 @@
     "prettier": "2.0.4",
     "pretty-quick": "2.0.1"
   },
-  "homepage": "https://github.com/e2e-boilerplate/testcafe-commonjs#readme",
+  "homepage": "https://github.com/e2e-boilerplate/testcafe-commonjs-assert#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged --allow-empty"
     }
   },
   "keywords": [
+    "assert",
     "boilerplate",
     "commonjs",
     "e2e",
@@ -40,10 +41,10 @@
       "prettier --write"
     ]
   },
-  "name": "testcafe-commonjs",
+  "name": "testcafe-commonjs-assert",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/testcafe-commonjs.git"
+    "url": "git+https://github.com/e2e-boilerplate/testcafe-commonjs-assert.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
