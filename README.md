@@ -2,7 +2,7 @@
     
 # TestCafé Boilerplate
     
-TestCafé end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html) and Assert.
+TestCafé end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html) and [Commonjs](https://nodejs.org/api/assert.html).
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/testcafe-commonjs-assert.git
